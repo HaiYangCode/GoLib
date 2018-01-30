@@ -3,6 +3,7 @@ import (
 	"database/sql"
 	"io/ioutil"
 	"encoding/json"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 func InitMysql(config DbConfig)(*sql.DB,error) {
