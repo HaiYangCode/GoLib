@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1a961d9-663e-459d-9de1-63e09cf247e6" name="Default" comment="" />
+    <list default="true" id="b1a961d9-663e-459d-9de1-63e09cf247e6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +24,7 @@
         </entry>
       </file>
       <file leaf-file-name="mHttp.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/athttp/mHttp.go">
+        <entry file="file://$PROJECT_DIR$/lib/athttp/mHttp.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
@@ -34,7 +36,7 @@
         </entry>
       </file>
       <file leaf-file-name="mysql.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/atdb/mysql.go">
+        <entry file="file://$PROJECT_DIR$/lib/atdb/mysql.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
@@ -46,7 +48,7 @@
         </entry>
       </file>
       <file leaf-file-name="atfile.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/atfile/atfile.go">
+        <entry file="file://$PROJECT_DIR$/lib/atfile/atfile.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
@@ -58,7 +60,7 @@
         </entry>
       </file>
       <file leaf-file-name="atfile_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/atfile/atfile_test.go">
+        <entry file="file://$PROJECT_DIR$/lib/atfile/atfile_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
@@ -70,10 +72,10 @@
         </entry>
       </file>
       <file leaf-file-name="error.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/aterr/error.go">
+        <entry file="file://$PROJECT_DIR$/lib/aterr/error.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#15#27#0" expanded="true" />
               </folding>
@@ -160,18 +162,18 @@
             <path>
               <item name="GoLib" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoLib" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoLib" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoLib" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="aterr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoLib" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoLib" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="atfile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -251,6 +253,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26752505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -290,7 +293,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/athttp/mHttp.go">
+    <entry file="file://$PROJECT_DIR$/lib/athttp/mHttp.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
@@ -300,7 +303,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/atdb/mysql.go">
+    <entry file="file://$PROJECT_DIR$/lib/atdb/mysql.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
@@ -310,7 +313,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/atfile/atfile.go">
+    <entry file="file://$PROJECT_DIR$/lib/atfile/atfile.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
@@ -320,7 +323,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/atfile/atfile_test.go">
+    <entry file="file://$PROJECT_DIR$/lib/atfile/atfile_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
@@ -341,7 +344,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aterr/error.go">
+    <entry file="file://$PROJECT_DIR$/lib/aterr/error.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -359,7 +362,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/athttp/mHttp.go">
+    <entry file="file://$PROJECT_DIR$/lib/athttp/mHttp.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
@@ -369,7 +372,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/atdb/mysql.go">
+    <entry file="file://$PROJECT_DIR$/lib/atdb/mysql.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
@@ -379,7 +382,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/atfile/atfile.go">
+    <entry file="file://$PROJECT_DIR$/lib/atfile/atfile.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
@@ -389,7 +392,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aterr/error.go">
+    <entry file="file://$PROJECT_DIR$/lib/aterr/error.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -410,7 +413,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/atfile/atfile_test.go">
+    <entry file="file://$PROJECT_DIR$/lib/atfile/atfile_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
@@ -428,7 +431,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/athttp/mHttp.go">
+    <entry file="file://$PROJECT_DIR$/lib/athttp/mHttp.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
@@ -438,7 +441,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/atdb/mysql.go">
+    <entry file="file://$PROJECT_DIR$/lib/atdb/mysql.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
@@ -448,7 +451,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aterr/error.go">
+    <entry file="file://$PROJECT_DIR$/lib/aterr/error.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -469,7 +472,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/atfile/atfile.go">
+    <entry file="file://$PROJECT_DIR$/lib/atfile/atfile.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -498,7 +501,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/athttp/mHttp.go">
+    <entry file="file://$PROJECT_DIR$/lib/athttp/mHttp.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
@@ -516,7 +519,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/athttp/mHttp.go">
+    <entry file="file://$PROJECT_DIR$/lib/athttp/mHttp.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -562,7 +565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/athttp/mHttp.go">
+    <entry file="file://$PROJECT_DIR$/lib/athttp/mHttp.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
@@ -574,7 +577,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/dbConfig.json" />
     <entry file="file://$PROJECT_DIR$/config/logDBConfig.json" />
-    <entry file="file://$PROJECT_DIR$/src/atdb/mysql.go">
+    <entry file="file://$PROJECT_DIR$/lib/atdb/mysql.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
@@ -584,7 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/atfile/atfile.go">
+    <entry file="file://$PROJECT_DIR$/lib/atfile/atfile.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
@@ -594,7 +597,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/atfile/atfile_test.go">
+    <entry file="file://$PROJECT_DIR$/lib/atfile/atfile_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
@@ -612,10 +615,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aterr/error.go">
+    <entry file="file://$PROJECT_DIR$/lib/aterr/error.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#15#27#0" expanded="true" />
           </folding>
