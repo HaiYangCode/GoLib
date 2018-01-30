@@ -2,9 +2,9 @@ package aterr
 
 import "fmt"
 
-func CheckErr(err error) {
-	fmt.Println(err)
-	if err != nil {
-		panic(err)
+func CheckErr(msg interface{}) {
+	fmt.Println(msg)
+	if msg != nil {
+		panic(msg)
 	}
 }
