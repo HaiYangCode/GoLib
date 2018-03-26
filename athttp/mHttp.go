@@ -31,5 +31,5 @@ func HttpRequest(method func() (*http.Request,error)) (*BaseResponse,error) {
 type BaseResponse struct {
 	Code int
 	Msg  string
-	Data map[string]interface{}
+	Data interface{}
 }
