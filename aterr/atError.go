@@ -8,3 +8,7 @@ func CheckErr(msg interface{}) {
 		panic(msg)
 	}
 }
+
+func TestM()  {
+	fmt.Println("..........")
+}
