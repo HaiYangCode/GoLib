@@ -17,11 +17,9 @@ func SafeHandle(hf http.HandlerFunc) http.HandlerFunc {
 				result["code"] = 300
 				result["msg"] = e.Error()
 				data, _ := json.Marshal(result)
-				//http.Error(w,string(data),http.StatusInternalServerError)
 				w.Header().Set("Content-Type", "application/json")
 				io.WriteString(w, string(data))
-				//log.Println(string(debug.Stack()))
-				fmt.Println("WARN:panic in %v-%v", hf, e)
+
 			}
 		}()
 		hf(w, r)
