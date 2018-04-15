@@ -15,6 +15,3 @@ func (c *CustomError) Error() string {
 	return "xxxxx"
 }
 
-func TestTestM(t *testing.T) {
-	TestM()
-}

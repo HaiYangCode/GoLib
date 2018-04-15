@@ -9,6 +9,3 @@ func CheckErr(msg interface{}) {
 	}
 }
 
-func TestM()  {
-	fmt.Println("..........")
-}
