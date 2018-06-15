@@ -35,7 +35,7 @@ type BaseResponse struct {
 	Data interface{}
 }
 
-func Http0Request(method func() (*http.Request, error)) (interface{}, error) {
+func Http0Request(method func() (*http.Request, error)) ([]byte, error) {
 	client := &http.Client{}
 	req, err := method() // GenerateReqeust(bc,param)
 	resp, err := client.Do(req)
@@ -47,8 +47,6 @@ func Http0Request(method func() (*http.Request, error)) (interface{}, error) {
 		// handle error
 		return nil, err
 	}
-	var br interface{}
-	json.Unmarshal(body, &br)
 	//返回请求的结果
-	return &br, nil
+	return body, nil
 }
