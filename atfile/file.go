@@ -2,10 +2,9 @@ package atfile
 
 import (
 	"fmt"
-	"github.com/yanghai23/GoLib/atfile"
 	"io/ioutil"
-	"os"
 	"log"
+	"os"
 	"path/filepath"
 	"runtime"
 	"strings"
@@ -37,14 +36,14 @@ var ostype = runtime.GOOS
 	读取配置
  */
 
-func ReadConfig(fileName string) (data []byte, err error) {
-	currentPath := atfile.GetCurrentDirectory()
+func ReadConfig(currentPath, fileName string) (data []byte, err error) {
+
 	fmt.Println("操作系统类型 ", ostype)
 	if "windows" == ostype {
-		data, err = ioutil.ReadFile(currentPath + "\\"+fileName)
+		data, err = ioutil.ReadFile(currentPath + "\\" + fileName)
 		fmt.Println("windows 读取配置")
 	} else {
-		data, err = ioutil.ReadFile(currentPath + "/"+fileName)
+		data, err = ioutil.ReadFile(currentPath + "/" + fileName)
 		fmt.Println("Mac 读取配置")
 	}
 
