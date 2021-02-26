@@ -21,10 +21,21 @@ func CreateFile(logFilePath, fileName string) (*os.File, error) {
 }
 
 /**
-获取当前的相对路径
+获取当前的绝对路径
 */
 func GetCurrentDirectory() string {
 	dir, err := filepath.Abs(filepath.Dir(""))
+	if err != nil {
+		log.Fatal(err)
+	}
+	return strings.Replace(dir, "\\", "/", -1)
+}
+
+/**
+获取当前的相对路径
+*/
+func GetCurrentRelDir() string {
+	dir, err := filepath.Rel("./", GetCurrentDirectory())
 	if err != nil {
 		log.Fatal(err)
 	}

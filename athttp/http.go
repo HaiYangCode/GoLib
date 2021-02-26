@@ -1,13 +1,28 @@
 package athttp
 
 import (
-	"net/http"
-	"io/ioutil"
 	"encoding/json"
 	"fmt"
+	"io/ioutil"
+	"net/http"
 )
 
 func HttpRequest(method func() (*http.Request, error)) (*BaseResponse, error) {
+
+	body, err := CompatHttpRequest(method)
+	if err != nil {
+		// handle error
+		return nil, err
+	}
+	var br BaseResponse
+	json.Unmarshal(body, &br)
+	fmt.Println(string(body))
+	//返回请求的结果
+	return &br, nil
+}
+
+//扩展直接返回字节码的函数
+func CompatHttpRequest(method func() (*http.Request, error)) ([]byte, error) {
 	client := &http.Client{}
 	req, err := method() // GenerateReqeust(bc,param)
 	resp, err := client.Do(req)
@@ -19,11 +34,8 @@ func HttpRequest(method func() (*http.Request, error)) (*BaseResponse, error) {
 		// handle error
 		return nil, err
 	}
-	var br BaseResponse
-	json.Unmarshal(body, &br)
-	fmt.Println(string(body))
 	//返回请求的结果
-	return &br, nil
+	return body, nil
 }
 
 /**
