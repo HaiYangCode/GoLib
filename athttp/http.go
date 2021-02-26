@@ -47,9 +47,9 @@ type BaseResponse struct {
 	Data interface{}
 }
 
-func Http0Request(method func() (*http.Request, error)) ([]byte, error) {
+func Http0Request(method func(client *http.Client) (*http.Request, error)) ([]byte, error) {
 	client := &http.Client{}
-	req, err := method() // GenerateReqeust(bc,param)
+	req, err := method(client) // GenerateReqeust(bc,param)
 	resp, err := client.Do(req)
 	if err != nil {
 	}
