@@ -1,1 +1,1 @@
-module "GoLib"
+module github.com/kkSourceDev/GoLib
