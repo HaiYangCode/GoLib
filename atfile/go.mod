@@ -1,2 +1,3 @@
-module "github.com/yanghai23/GoLib/atfile"
+module github.com/yanghai23/GoLib/athttp
+
 go 1.16
