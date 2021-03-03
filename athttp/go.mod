@@ -1,3 +1,3 @@
-module github.com/kkSourceDev/GoLib/tree/v1.0.0/athttp
+module github.com/kkSourceDev/GoLib/athttp
 
 go 1.16
