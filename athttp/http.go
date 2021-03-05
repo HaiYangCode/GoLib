@@ -52,7 +52,7 @@ type BaseResponse struct {
 	Data interface{}
 }
 
-func Http0Request(method func(client *http.Client) (*http.Request, error)) ([]byte, error) {
+func HttpRequestHeader(method func(client *http.Client) (*http.Request, error)) ([]byte, error) {
 	client := &http.Client{}
 	client.Timeout = 30 * time.Second
 	req, err := method(client) // GenerateReqeust(bc,param)
