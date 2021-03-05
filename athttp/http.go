@@ -28,6 +28,7 @@ func CompatHttpRequest(method func() (*http.Request, error)) ([]byte, error) {
 	req, err := method() // GenerateReqeust(bc,param)
 	resp, err := client.Do(req)
 	if err != nil {
+		return nil, err
 	}
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
@@ -54,6 +55,7 @@ func Http0Request(method func(client *http.Client) (*http.Request, error)) ([]by
 	req, err := method(client) // GenerateReqeust(bc,param)
 	resp, err := client.Do(req)
 	if err != nil {
+		return nil, err
 	}
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
