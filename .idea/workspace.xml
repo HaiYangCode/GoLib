@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b1a961d9-663e-459d-9de1-63e09cf247e6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/athttp/http.go" beforeDir="false" afterPath="$PROJECT_DIR$/athttp/http.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atdb/mysql.go" beforeDir="false" afterPath="$PROJECT_DIR$/atdb/mysql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
