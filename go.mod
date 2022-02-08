@@ -1,1 +1,3 @@
-module "GoLib"
+module GoLib
+
+go 1.17
