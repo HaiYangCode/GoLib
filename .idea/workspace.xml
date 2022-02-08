@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1a961d9-663e-459d-9de1-63e09cf247e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atdb/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/atdb/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aterr/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/aterr/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atfile/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/atfile/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/athttp/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/athttp/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,9 +107,9 @@
       <module name="GoLib" />
       <working_directory value="$PROJECT_DIR$/atfile" />
       <go_parameters value="-i" />
-      <framework value="gotest" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/atfile/atfile_test.go" />
+      <framework value="gotest" />
       <pattern value="^TestGetCurrentDirectory$" />
       <method v="2" />
     </configuration>
@@ -115,9 +117,9 @@
       <module name="GoLib" />
       <working_directory value="$PROJECT_DIR$/atfile" />
       <go_parameters value="-i" />
-      <framework value="gotest" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/atfile/atfile_test.go" />
+      <framework value="gotest" />
       <pattern value="^TestGetCurrentDirectory$" />
       <method v="2" />
     </configuration>
@@ -125,29 +127,29 @@
       <module name="GoLib" />
       <working_directory value="$PROJECT_DIR$/atfile" />
       <go_parameters value="-i" />
-      <framework value="gotest" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/atfile/atfile_test.go" />
+      <framework value="gotest" />
       <pattern value="^TestGetCurrentDirectory$" />
       <method v="2" />
     </configuration>
     <configuration name="TestGetCurrentDirectory in file_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoLib" />
       <working_directory value="$PROJECT_DIR$/atfile" />
-      <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/atfile/file_test.go" />
+      <framework value="gotest" />
       <pattern value="^TestGetCurrentDirectory$" />
       <method v="2" />
     </configuration>
     <configuration name="TestGetCurrentRelDir in file_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoLib" />
       <working_directory value="$PROJECT_DIR$/atfile" />
-      <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/atfile/file_test.go" />
+      <framework value="gotest" />
       <pattern value="^TestGetCurrentRelDir$" />
       <method v="2" />
     </configuration>
