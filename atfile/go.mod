@@ -1,3 +1,3 @@
-module github.com/kkSourceDev/GoLib/atfile
+module "atfile"
 
 go 1.17

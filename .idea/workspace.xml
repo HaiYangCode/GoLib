@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1a961d9-663e-459d-9de1-63e09cf247e6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/athttp/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/athttp/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aterr/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/aterr/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atfile/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/atfile/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/utils/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,71 +113,68 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestGetCurrentDirectory in file_test.go">
-    <configuration name="TestGetCurrentDirectory in atfile_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+  <component name="RunManager" selected="Go Test.TestCheckErr in error_test.go">
+    <configuration name="go build error.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLib" />
-      <working_directory value="$PROJECT_DIR$/atfile" />
-      <go_parameters value="-i" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/atfile/atfile_test.go" />
-      <framework value="gotest" />
-      <pattern value="^TestGetCurrentDirectory$" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/aterr/error.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGetCurrentDirectory in atfile_test.go (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestCheckErr in error_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoLib" />
-      <working_directory value="$PROJECT_DIR$/atfile" />
-      <go_parameters value="-i" />
+      <working_directory value="$PROJECT_DIR$/aterr" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/atfile/atfile_test.go" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/aterr/error_test.go" />
       <framework value="gotest" />
-      <pattern value="^TestGetCurrentDirectory$" />
+      <pattern value="^\QTestCheckErr\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGetCurrentDirectory in atfile_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestCheckErr1 in error_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoLib" />
-      <working_directory value="$PROJECT_DIR$/atfile" />
-      <go_parameters value="-i" />
+      <working_directory value="$PROJECT_DIR$/aterr" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/atfile/atfile_test.go" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/aterr/error_test.go" />
       <framework value="gotest" />
-      <pattern value="^TestGetCurrentDirectory$" />
+      <pattern value="^\QTestCheckErr1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGetCurrentDirectory in file_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGetCurrentRelDir in file_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoLib" />
       <working_directory value="$PROJECT_DIR$/atfile" />
       <kind value="FILE" />
-      <directory value="$PROJECT_DIR$/" />
+      <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/atfile/file_test.go" />
       <framework value="gotest" />
-      <pattern value="^TestGetCurrentDirectory$" />
+      <pattern value="^\QTestGetCurrentRelDir\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGetCurrentRelDir in file_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="error_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoLib" />
-      <working_directory value="$PROJECT_DIR$/atfile" />
+      <working_directory value="$PROJECT_DIR$/aterr" />
       <kind value="FILE" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/atfile/file_test.go" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/aterr/error_test.go" />
       <framework value="gotest" />
-      <pattern value="^TestGetCurrentRelDir$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Test.TestGetCurrentDirectory in atfile_test.go (1)" />
-      <item itemvalue="Go Test.TestGetCurrentDirectory in atfile_test.go (2)" />
-      <item itemvalue="Go Test.TestGetCurrentDirectory in atfile_test.go" />
-      <item itemvalue="Go Test.TestGetCurrentRelDir in file_test.go" />
-      <item itemvalue="Go Test.TestGetCurrentDirectory in file_test.go" />
+      <item itemvalue="Go Test.TestGetCurrentRelDir in file_test.go (1)" />
+      <item itemvalue="Go Test.TestCheckErr in error_test.go" />
+      <item itemvalue="Go Test.error_test.go" />
+      <item itemvalue="Go Build.go build error.go" />
+      <item itemvalue="Go Test.TestCheckErr1 in error_test.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestGetCurrentDirectory in file_test.go" />
-        <item itemvalue="Go Test.TestGetCurrentRelDir in file_test.go" />
-        <item itemvalue="Go Test.TestGetCurrentDirectory in atfile_test.go" />
-        <item itemvalue="Go Test.TestGetCurrentDirectory in atfile_test.go (2)" />
-        <item itemvalue="Go Test.TestGetCurrentDirectory in atfile_test.go (1)" />
+        <item itemvalue="Go Test.TestCheckErr in error_test.go" />
+        <item itemvalue="Go Test.TestCheckErr1 in error_test.go" />
+        <item itemvalue="Go Build.go build error.go" />
+        <item itemvalue="Go Test.error_test.go" />
+        <item itemvalue="Go Test.TestGetCurrentRelDir in file_test.go (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645090638576</updated>
-      <workItem from="1645090641597" duration="987000" />
+      <workItem from="1645090641597" duration="1320000" />
     </task>
     <servers />
   </component>
