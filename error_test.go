@@ -1,4 +1,4 @@
-package aterr
+package GoLib
 
 import "testing"
 

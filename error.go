@@ -1,4 +1,4 @@
-package aterr
+package GoLib
 
 import "fmt"
 
@@ -8,4 +8,3 @@ func CheckErr(msg interface{}) {
 		panic(msg)
 	}
 }
-

@@ -1,4 +1,4 @@
-package atfile
+package GoLib
 
 import (
 	"fmt"
@@ -43,9 +43,10 @@ func GetCurrentRelDir() string {
 }
 
 var ostype = runtime.GOOS
+
 /**
-	读取配置
- */
+读取配置
+*/
 
 func ReadConfig(currentPath, fileName string) (data []byte, err error) {
 

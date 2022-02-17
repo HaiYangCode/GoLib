@@ -1,4 +1,4 @@
-package athttp
+package GoLib
 
 import (
 	"encoding/json"

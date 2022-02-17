@@ -1,10 +1,9 @@
-package utils
-
+package GoLib
 
 import (
-	"net/http"
-	"io"
 	"encoding/json"
+	"io"
+	"net/http"
 )
 
 var result = make(map[string]interface{})
@@ -17,4 +16,3 @@ func RStatus(w http.ResponseWriter, statusCode int, statusMsg string, resultData
 	data, _ := json.Marshal(result)
 	io.WriteString(w, string(data))
 }
-

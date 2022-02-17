@@ -1,10 +1,10 @@
-package atsafe
+package GoLib
 
 import (
-	"net/http"
+	"encoding/json"
 	"fmt"
 	"io"
-	"encoding/json"
+	"net/http"
 )
 
 func SafeHandle(hf http.HandlerFunc) http.HandlerFunc {

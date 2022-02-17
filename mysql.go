@@ -1,4 +1,4 @@
-package atdb
+package GoLib
 
 import (
 	"database/sql"

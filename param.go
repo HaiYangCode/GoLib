@@ -1,4 +1,4 @@
-package common
+package GoLib
 
 const (
 	SUCCESS = 200
