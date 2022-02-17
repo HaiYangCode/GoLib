@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b1a961d9-663e-459d-9de1-63e09cf247e6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aterr/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/aterr/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atfile/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/atfile/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/utils/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645090638576</updated>
-      <workItem from="1645090641597" duration="1320000" />
+      <workItem from="1645090641597" duration="2083000" />
     </task>
     <servers />
   </component>
