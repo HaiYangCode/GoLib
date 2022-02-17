@@ -1,3 +1,3 @@
-module github.com/kkSourceDev/GoLib/athttp
+module athttp
 
 go 1.17
