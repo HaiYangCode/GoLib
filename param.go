@@ -1,4 +1,4 @@
-package GoLib
+package atlib
 
 const (
 	SUCCESS = 200
