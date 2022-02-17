@@ -1,3 +1,3 @@
-module github.com/HaiYangCode/GoLib
+module utils
 
 go 1.17
