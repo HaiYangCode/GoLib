@@ -1,4 +1,4 @@
-module atdb
+module github.com/haiyangcode/GoLib/atdb
 
 go 1.17
 
