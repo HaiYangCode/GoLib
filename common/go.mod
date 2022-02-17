@@ -1,2 +1,2 @@
-module github.com/HaiYangCode/GoLib
+module common
 go 1.17
