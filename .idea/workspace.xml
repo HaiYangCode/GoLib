@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1a961d9-663e-459d-9de1-63e09cf247e6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/utils/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atdb/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/atdb/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atdb/mysql.go" beforeDir="false" afterPath="$PROJECT_DIR$/atdb/mysql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aterr/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/aterr/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atfile/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/athttp/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/athttp/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atsafe/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/common/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +190,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645090638576</updated>
-      <workItem from="1645090641597" duration="2083000" />
+      <workItem from="1645090641597" duration="3118000" />
     </task>
     <servers />
   </component>

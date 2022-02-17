@@ -1,3 +1,3 @@
-module "atfile"
+module atfile
 
 go 1.17

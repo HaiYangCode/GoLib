@@ -1,4 +1,4 @@
-module atdb
+module golib
 
 go 1.17
 
