@@ -1,4 +1,4 @@
-module atlib
+module GoLib
 
 go 1.17
 
