@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1a961d9-663e-459d-9de1-63e09cf247e6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DateFormat.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_config_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/net_status_util.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,13 +117,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCheckErr in error_test.go">
-    <configuration name="go build error.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestReadConfigInfo in read_config_test.go">
+    <configuration name="go build read_config.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoLib" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/aterr/error.go" />
+      <filePath value="$PROJECT_DIR$/read_config.go" />
       <method v="2" />
     </configuration>
     <configuration name="TestCheckErr in error_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -144,39 +146,39 @@
       <pattern value="^\QTestCheckErr1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGetCurrentRelDir in file_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestReadConfigInfo in read_config_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoLib" />
-      <working_directory value="$PROJECT_DIR$/atfile" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/atfile/file_test.go" />
+      <filePath value="$PROJECT_DIR$/read_config_test.go" />
       <framework value="gotest" />
-      <pattern value="^\QTestGetCurrentRelDir\E$" />
+      <pattern value="^\QTestReadConfigInfo\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="error_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="read_config_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GoLib" />
-      <working_directory value="$PROJECT_DIR$/aterr" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/aterr/error_test.go" />
+      <filePath value="$PROJECT_DIR$/read_config_test.go" />
       <framework value="gotest" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build error.go" />
-      <item itemvalue="Go Test.TestGetCurrentRelDir in file_test.go (1)" />
       <item itemvalue="Go Test.TestCheckErr in error_test.go" />
-      <item itemvalue="Go Test.error_test.go" />
       <item itemvalue="Go Test.TestCheckErr1 in error_test.go" />
+      <item itemvalue="Go Test.TestReadConfigInfo in read_config_test.go" />
+      <item itemvalue="Go Test.read_config_test.go" />
+      <item itemvalue="Go Build.go build read_config.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestReadConfigInfo in read_config_test.go" />
+        <item itemvalue="Go Test.read_config_test.go" />
+        <item itemvalue="Go Build.go build read_config.go" />
         <item itemvalue="Go Test.TestCheckErr in error_test.go" />
         <item itemvalue="Go Test.TestCheckErr1 in error_test.go" />
-        <item itemvalue="Go Build.go build error.go" />
-        <item itemvalue="Go Test.error_test.go" />
-        <item itemvalue="Go Test.TestGetCurrentRelDir in file_test.go (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +194,7 @@
       <workItem from="1645106003566" duration="500000" />
       <workItem from="1645106701091" duration="449000" />
       <workItem from="1645107483761" duration="1125000" />
-      <workItem from="1645756864778" duration="69000" />
+      <workItem from="1645756864778" duration="318000" />
     </task>
     <servers />
   </component>
@@ -244,6 +246,11 @@
           <url>file://$PROJECT_DIR$/file.go</url>
           <line>37</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/read_config.go</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

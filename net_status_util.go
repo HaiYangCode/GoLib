@@ -14,5 +14,9 @@ func RStatus(w http.ResponseWriter, statusCode int, statusMsg string, resultData
 	result["data"] = resultData
 	w.Header().Set("Content-Type", "application/json")
 	data, _ := json.Marshal(result)
-	io.WriteString(w, string(data))
+	writeString, err := io.WriteString(w, string(data))
+	if err != nil {
+		println(writeString)
+		return
+	}
 }
